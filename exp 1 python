@@ -1,0 +1,171 @@
+AIM
+
+To demonstrate various data types and operators in Python using a simple Python program.
+
+ALGORITHM
+Start the program.
+Declare variables using different data types such as integer, float, string, Boolean, list, tuple, set, and dictionary.
+Display the data type of each variable.
+Declare two numeric variables.
+Perform arithmetic operations such as addition, subtraction, multiplication, division, modulus, and exponentiation.
+Perform comparison operations.
+Perform logical operations using Boolean values.
+Demonstrate assignment, membership, and identity operators.
+Display the results.
+Stop the program.
+
+SOURCE CODE
+
+# Demonstration of Data Types and Operators in Python
+
+# Data Types
+a = 10
+b = 5.5
+name = "Suyash"
+student = True
+numbers = [1, 2, 3, 4]
+coordinates = (10, 20)
+fruits = {"Apple", "Banana", "Mango"}
+details = {"Name": "Suyash", "Age": 20}
+
+print("DATA TYPES")
+print(a, type(a))
+print(b, type(b))
+print(name, type(name))
+print(student, type(student))
+print(numbers, type(numbers))
+print(coordinates, type(coordinates))
+print(fruits, type(fruits))
+print(details, type(details))
+
+# Operators
+x = 10
+y = 3
+
+print("\nARITHMETIC OPERATORS")
+print("Addition =", x + y)
+print("Subtraction =", x - y)
+print("Multiplication =", x * y)
+print("Division =", x / y)
+print("Modulus =", x % y)
+print("Exponent =", x ** y)
+print("Floor Division =", x // y)
+
+print("\nRELATIONAL OPERATORS")
+print("x == y :", x == y)
+print("x != y :", x != y)
+print("x > y  :", x > y)
+print("x < y  :", x < y)
+
+print("\nLOGICAL OPERATORS")
+p = True
+q = False
+print("p and q =", p and q)
+print("p or q =", p or q)
+print("not p =", not p)
+
+print("\nASSIGNMENT OPERATOR")
+z = 10
+z += 5
+print("z += 5 =", z)
+
+print("\nMEMBERSHIP OPERATOR")
+print("'Apple' in fruits =", "Apple" in fruits)
+print("'Orange' not in fruits =", "Orange" not in fruits)
+
+print("\nIDENTITY OPERATOR")
+list1 = [1, 2, 3]
+list2 = list1
+print("list1 is list2 =", list1 is list2)
+
+
+MAIN CODE 
+
+# DATA TYPES 
+
+# Integer
+a = 10
+print("Integer:", a)
+
+# Float
+b = 5.5
+print("Float:", b)
+
+# String
+name = "Suyash"
+print("String:", name)
+
+# Boolean
+is_student = True
+print("Boolean:", is_student)
+
+# List
+numbers = [1, 2, 3, 4, 5]
+print("List:", numbers)
+
+# Tuple
+coordinates = (10, 20)
+print("Tuple:", coordinates)
+
+# Set
+fruits = {"Apple", "Banana", "Mango"}
+print("Set:", fruits)
+
+# Dictionary
+student = {"name": "Suyash", "age": 20}
+print("Dictionary:", student)
+
+
+#OPERATORS 
+
+x = 10
+y = 3
+
+# Arithmetic Operators
+print("\nArithmetic Operators:")
+print("Addition:", x + y)
+print("Subtraction:", x - y)
+print("Multiplication:", x * y)
+print("Division:", x / y)
+print("Floor Division:", x // y)
+print("Modulus:", x % y)
+print("Exponent:", x ** y)
+
+# Comparison Operators
+print("\nComparison Operators:")
+print("Equal:", x == y)
+print("Not Equal:", x != y)
+print("Greater Than:", x > y)
+print("Less Than:", x < y)
+print("Greater Than or Equal:", x >= y)
+print("Less Than or Equal:", x <= y)
+
+# Logical Operators
+p = True
+q = False
+
+print("\nLogical Operators:")
+print("AND:", p and q)
+print("OR:", p or q)
+print("NOT:", not p)
+
+# Assignment Operators
+print("\nAssignment Operators:")
+z = 10
+z += 5
+print("z += 5:", z)
+z -= 3
+print("z -= 3:", z)
+z *= 2
+print("z *= 2:", z)
+
+# Membership Operators
+print("\nMembership Operators:")
+print("Apple in fruits:", "Apple" in fruits)
+print("Orange not in fruits:", "Orange" not in fruits)
+
+# Identity Operators
+print("\nIdentity Operators:")
+list1 = [1, 2, 3]
+list2 = list1
+print("list1 is list2:", list1 is list2)
