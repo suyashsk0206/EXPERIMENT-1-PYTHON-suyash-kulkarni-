@@ -1,0 +1,60 @@
+AIM
+
+To demonstrate various string operations in Python such as finding the length, changing case, accessing characters, slicing, searching, replacing, checking membership, concatenation, and trimming spaces.
+
+ALGORITHM
+
+Start the program.
+Create a string s with the value " Hello Python".
+Display the original string.
+Find and display the length of the string using len().
+Convert and display the string in uppercase using upper().
+Convert and display the string in lowercase using lower().
+Display the character at index 6.
+Find and display the position of "Python" using find().
+Extract and display a portion of the string using slicing.
+Replace "Python" with "Universe" using replace().
+Check whether "Python" is present in the string using the in operator.
+Concatenate the string with " programming".
+Create another string "Hello World".
+Remove leading and trailing spaces using strip().
+Display all results.
+Stop the program.
+
+SOURCE CODE
+
+s = " Hello Python"
+
+print("Original String:", s)
+print("Length:", len(s))
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Character at index 6:", s[6])
+print("Position of Python:", s.find("Python"))
+print("Slice:", s[1:7])
+print("Replace:", s.replace("Python", "Universe"))
+print("After Replace:", s)
+print("Contains Python:", "Python" in s)
+print("Concatenation:", s + " programming")
+
+s2 = "Hello World"
+print("Trim:", s2.strip())
+
+MAIN CODE 
+
+s = " Hello Python"
+
+print("Original String:", s)
+print("Length:", len(s))
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Character at index 6:", s[6])
+print("Position of Python:", s.find("Python"))
+print("Slice:", s[1:7])
+print("Replace:", s.replace("Python", "Universe"))
+print("After Replace:", s)
+print("Contains Python:", "Python" in s)
+print("Concatenation:", s + " programming")
+
+s2 = "Hello World"
+print("Trim:", s2.strip())
