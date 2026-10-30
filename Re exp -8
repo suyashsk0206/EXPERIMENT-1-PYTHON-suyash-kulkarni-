@@ -1,0 +1,41 @@
+1. Aim
+To write a Python program using the re (Regular Expression) module to validate an email address or a 10-digit mobile number entered by the user.
+2. Algorithm
+Start the program.
+Import the re module.
+Accept an email address or mobile number from the user.
+Define a regular expression pattern for email validation.
+Define a regular expression pattern for mobile number validation.
+Check whether the entered data matches the email pattern using re.fullmatch().
+If it matches, display Valid Email.
+Otherwise, check whether it matches the mobile number pattern.
+If it matches, display Valid Mobile Number.
+Otherwise, display Invalid Email or Mobile Number.
+Stop the program.
+
+3.code 
+
+import re
+
+data = input("Enter Email or Mobile Number: ")
+
+email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+mobile_pattern = r'^[0-9]{10}$'
+
+if re.fullmatch(email_pattern, data):
+    print("Valid Email")
+
+elif re.fullmatch(mobile_pattern, data):
+    print("Valid Mobile Number")
+
+else:
+    print("Invalid Email or Mobile Number")
+
+4.output
+
+Enter Email or Mobile Number: student@gmail.com
+Valid Email
+Enter Email or Mobile Number: 9876543210
+Valid Mobile Number
+Enter Email or Mobile Number: student@gmail
+Invalid Email or Mobile Number
